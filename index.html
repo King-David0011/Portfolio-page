@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King-David Madudili</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f10c7aedb0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/ico" href="images/favicon.2.ico">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I'm <span>King-david</span> <br>from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm King-David Madudili, a student with a passion for Computer Science. I am also a Freelance Front-end Developer. I love creating interactive and user-friendly websites <br>My goal is to continue learning and building amazing projects. I thrive on challenges and always strive to improve my skills and learn new ones.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link">Skills</p>
+                        
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>Front-end Developer</span><br>HTML, CSS and JAVASCRIPT</li>
+                            <li><span>Website Development</span><br>Web app Development </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <h2>Web Design</h2>
+                    <p>Good web design focuses on user-centered layouts, clean typography, consistent stylingand responsive behaviour. <br>Prioritize accessibility, intuitive navigation, and optimized performance to create engagingand functional websites. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Front-End Developer</h2>
+                    <p>Front-End Development uses HTML for structure, CSS for styling and layout, and Javascript for interactivity, working together to create responsive, visually appealing, and user-friendly websites</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png.png" >
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>A simple and responsive calculator that performs basic arithmetic operations with a clean and user-friendly interface.</p>
+                        <a href="/calculator.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png.png" >
+                    <div class="layer">
+                        <h3>To-do list App</h3>
+                        <p>A task management app that allows users to add, delete tasks, helping them stay organized and productive.</p>
+                        <a href="/todo.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png.png" >
+                    <div class="layer">
+                        <h3>Cooking Recipe App</h3>
+                        <p>An interactive web app that provides users with various recipes, ingredients, and step-by-step cooking instructions. </p>
+                        <a href="/recipe.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Conatct Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>09061687009</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/bestking0011/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://discord.com/channels/@me" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://x.com/Mk_David76" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://web.telegram.org/k/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="You Email" required >
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © King-David Madudili 2025</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
