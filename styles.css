@@ -12,6 +12,7 @@ html {
 body {
     background: #080808;
     color: #fff;
+    
 }
 
 #header {
@@ -54,7 +55,7 @@ nav ul li a::after {
     content:'' ;
     width: 0%;
     height: 3px;
-    background: #ff004f;
+    background: #151585;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -75,7 +76,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color:#ff004f ;
+    color:#151585 ;
 }
 
 /*About*/
@@ -124,7 +125,7 @@ nav ul li a:hover::after {
     margin: 10px 0;
 }
 .tab-contents ul li span {
-    color: #b54769;
+    color: #202091;
     font-size: 14px;
 }
 
@@ -167,8 +168,10 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-    background-color: #ff004f;
-    transform: translateY(-10px);
+    background-color: #151585;
+    transform: translateY(-30px);
+    
+    
 }
 
 /*Portfolio*/
@@ -199,7 +202,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #151585);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -222,7 +225,7 @@ nav ul li a:hover::after {
 
 .layer a{
     margin-top:20px ;
-    color: #ff004f;
+    color: #151585;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -254,7 +257,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: #151585;
     margin-right:15px ;
     font-size: 25px;
 
@@ -273,13 +276,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: #ff004f;
+    color: #151585;
     transform: translateY(-5px);
 }
 
 .btn {
     display: inline-block;
-    background:#ff004f ;
+    background:#151585 ;
 
 }
 
@@ -310,9 +313,17 @@ form .btn {
     width: 100%;
     text-align: center;
     padding: 25px;
-    background: #262626;
+    background: #000;
     font-weight: 300;
     margin-top: 20px;
+    color: #151585;
+}
+
+.copyright span {
+    text-decoration: underline;
+    color: #0c580c;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 /*Media Queris for small screen*/
@@ -324,7 +335,7 @@ nav .fa-solid {
 
 @media only screen and (max-width:600px){
     #header {
-        background-image: url(images/phone-background.png.png);
+        background-image: url();
     }
     .header-text {
         margin-top: 100%;
@@ -340,7 +351,7 @@ nav .fa-solid {
     }
 
     nav ul {
-        background: #ff004f;
+        background: #151585;
         position: fixed;
         top: 0;
         right: -200px;
