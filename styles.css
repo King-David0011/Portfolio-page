@@ -9,6 +9,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
 body {
     background: #080808;
     color: #fff;
@@ -17,7 +20,8 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
+    height: 50%;
+    background: url();
     
     background-size: cover;
     background-position:center ;
@@ -160,7 +164,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div a{
-    text-decoration: none;
+    
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
@@ -234,7 +238,9 @@ nav ul li a:hover::after {
     height: 60px;
     border-radius: 50%;
     text-align: center;
+    
 }
+
 
 .work:hover img {
     transform: scale(1.1);
@@ -393,4 +399,30 @@ nav .fa-solid {
     .copyright {
         font-size: 14px;
     }
+
+    .work-list {
+        display: inline-block;
+        
+    }
+
+    .work {
+        margin-top: 40px;
+    }
+
+    
+.services-list{
+    display: inline-block;
+    
+}
+.services-list {
+    margin-top: 40px;
+    
+}
+
+
+}
+#msg{
+    color: #61b752;
+    margin-top: 5px;
+    display: block;
 }
